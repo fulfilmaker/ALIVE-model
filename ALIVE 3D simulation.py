@@ -263,7 +263,7 @@ def main():
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
 
         shell_speeds = range(1,101) # Shell speed range
-        a,b,c = [0.1,0.000001,0.1] # Use this to change the overall speeds
+        a,b,c = [0.1,0.1,0.1] # Use this to change the overall speeds
 
         draw_particles(particles, time, shell_speeds, reference_particle, a, b, c)
 
